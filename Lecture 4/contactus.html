@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Form</title>
+</head>
+<body>
+	<style type="text/css">
+		#imageForm	{
+			float: right;
+			margin-top: -250px;
+			margin-right: 500px;
+			height: 300px;
+		}
+
+		.navigation {
+		display:inline-block;
+		margin-right: 10%;
+		}
+
+	</style>
+
+	<ul>
+		<li class="navigation"><img src="img/logo.png"></li>
+		<li class="navigation"><a href="index.html">Home</a></li>
+		<li class="navigation"><a href="contactus.html">Contact Us</a></li>
+		<li class="navigation"><a href="gallery.html">Gallery</a></li>
+	</ul>
+
+	<h1>Contact Form:</h1>
+
+	<form method="POST" action="...">
+		<label for="firstName">First name:</label>
+		<input type="text" name="firstName"><br><br>
+		<label for="lastName">Last name:</label>
+		<input type="text" name="lastName"><br><br>
+		<label for="gender">Gender:</label>
+		<input type="radio" name="gender">M
+		<input type="radio" name="gender">F <br><br>
+		<label for="department">Select to which department the questions is</label>
+		<select name="department">
+			<option>Astronomy</option>
+			<option>Physics</option>
+			<option>Maths</option>
+			<option>Biology</option>
+		</select> <br>
+		<label for="question">Question:</label>
+		<textarea name="question"></textarea> <br><br>
+		<label for="subscription">Subscribe to newsletter:</label>
+		<input type="checkbox" name="subscription"> <br><br>
+		<button type="submit">Go Ahead!</button>
+
+		<img id="imageForm" src="img/contactform.jpg">
+	</form>
+
+</body>
+</html>

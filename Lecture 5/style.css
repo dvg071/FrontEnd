@@ -1,0 +1,39 @@
+* {
+	font-family: Verdana;
+	color: white;
+}
+
+body {
+	background-color: #34495e;
+}
+
+.column {
+	float: left;
+	width: 30%;
+	background-color: #e74c3c;
+	margin-right: 3.33%;
+}
+
+img {
+	float: left;
+}
+
+.info {
+	margin-top: 2%;
+    margin-left: 35%;
+}
+
+span {
+	font-weight: bold;
+}
+
+.name {
+	font-size: 20px;
+	font-weight: bold; 
+}
+
+.values {
+	color: #f1c40f;
+	font-size: 12px;
+	font-weight: normal;
+}
