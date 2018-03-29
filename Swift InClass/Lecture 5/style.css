@@ -1,0 +1,30 @@
+body {
+	background-color: darkslategrey;
+	padding-right: 200px;
+}
+
+h1 {
+	color: orangered;
+	font-size: 20px;
+}
+
+#articleMainKeyWord {
+	color : gold;
+	font-size: 50px;
+}
+
+.keyWord {
+	color: gold;
+}
+
+p {
+	color: white;
+}
+
+img {
+
+	height: 200px;
+	width: 250px;
+	margin: 0 auto;
+	display: block;
+}

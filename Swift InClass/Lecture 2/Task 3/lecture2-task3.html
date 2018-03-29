@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+</head>
+<body>
+	<form action="serverSimulation.html" method="get">
+	<h1>Please select fill the form</h1>
+
+	<h2>Creating new article</h2>
+
+	<label for="articleCreator">Article By:</label>
+	<input type="text" name="articleCreator">
+
+	<br>
+	<br>
+
+	<label for="articleTitle">Article title:</label>
+	<input type="text" name="articleTitle">
+
+	<br>
+	<br>
+
+	<label for="mainPicture">Select picture:</label>
+	<input type="file" name="mainPicture">	
+
+	<br>
+	<br>
+
+	<label for="articleBody">Article body:</label>
+	<textarea name="articleBody"></textarea>
+
+	<br>
+	<br>
+
+	<label for="imagePosition">Image Position:</label>
+	<br>
+	<input type="radio" name="imagePosition">Left
+	<br>
+	<input type="radio" name="imagePosition">Right
+
+	<br>
+	<br>
+
+	<label for="hasDate">Show date:</label>
+	<input type="checkbox" name="hasDate">
+	<br>
+	<label for="useTwoColumns">Use row column:</label>
+	<input type="checkbox" name="useTwoColumns">
+
+	<br>
+	<br>
+
+	<button type="submit" formtarget="_blank">Submit Query</button>
+	</form>
+</body>
+</html>

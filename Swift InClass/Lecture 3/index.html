@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1>Please select the form</h1>
+
+	<h3>Creating new article</h3>
+
+	<form action="serverSimulation.html" method="GET">
+		<div>
+		<label for="articleBy">Article by</label>
+		<input type="text" name="articleCreator">
+		</div>
+		<div>
+		<label for="articleTitle">Article title</label>
+		<input type="text" name="articleTitle">
+		</div>
+		<div>
+		<label for="mainPicture">Select picture</label>
+		<input type="file"/ name="mainPicture">
+		</div>
+		<div>
+		<label for="articleBody">Article body</label>
+		<textarea rows="4" cols="50" name=articleBody></textarea>
+		</div>
+		<div>
+		<label>Image position</label>
+		<br>
+		<label for="position">Left</label><input type="radio" name="imagePosition">
+		<br>
+		<label for="position">Right</label><input type="radio" name="imagePosition">
+		</div>
+		<div>
+			<label>Show date</label>
+			<input type="checkbox" name="hasDate">
+			<br>
+			<label>Use row columns</label>
+			<input type="checkbox" name="useTwoColumns">
+		</div>
+		<div>
+			<button target="serverSimulation.html">Submit Query</button>
+		</div>
+
+	</form>
+
+</body>
+</html>
