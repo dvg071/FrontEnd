@@ -1,40 +1,46 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>CSS</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
+	<head>
+		<title>CSS</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
 
-	<h1>Участници в състезанието:</h1>
+<!-- Малко подреждането на кода е оплетено. Изглежда добре на пръв поглед, но доста подвежда. Подредил съм го надолу, както би трябвало да е.
+	Основното нещо, което можеш да запомниш, е че ако отваряш даден таг на определена позиция от началното на реда, трябва и да го затваряш със същото одстояние. -->
 
-	<div class="row">
-		<div class="column">
-			<img src="noimage.png" width="100px">
-			<div class="info">
-			<span class="name">Петър Иванов</span><br>
-			<span>години: <span class="values">34</span></span><br>
-			<span>длъжност: <span class="values">програмист</span></span><br>
-			<span>телефон: <span class="values">555 489 456</span></span>
-		</div>
-	</div>
-		<div class="column">
-			<img src="noimage.png" width="100px">
-			<div class="info">
-			<span class="name">Георги Михаелов</span><br>
-			<span>години: <span class="values">42</span></span><br>
-			<span>длъжност: <span class="values">QA</span></span><br>
-			<span>телефон: <span class="values">555 158 354</span></span>
-		</div>
-	</div>
-	<div class="column">
-			<img src="noimage.png" width="100px">
-			<div class="info">
-			<span class="name">Иванка Тодорова</span><br>
-			<span>години: <span class="values">25</span></span><br>
-			<span>длъжност: <span class="values">PM</span></span><br>
-			<span>телефон: <span class="values">555 875 356</span></span>
-		</div>
-	</div>
-</body>
+		<h1>Участници в състезанието:</h1>
+
+		<!-- Гледай да използваш малко по описателни имена на калсовете си. Ако имаш подобни списъци със елементи на различни места от страницата, но не трябва да изглеждат по един и същ начин, ще е малко объркващо ако някой се казват row други примертно rowType2 или нещо такова.
+			Сложи малко по-описателно име, за пример: class="personCardRow" -->
+		<div class="row">
+			<div class="column">
+				<img src="noimage.png" width="100px">
+				<div class="info">
+					<span class="name">Петър Иванов</span><br>
+					<span>години: <span class="values">34</span></span><br>
+					<span>длъжност: <span class="values">програмист</span></span><br>
+					<span>телефон: <span class="values">555 489 456</span></span>
+				</div>
+			</div>
+			<div class="column">
+				<img src="noimage.png" width="100px">
+				<div class="info">
+					<span class="name">Георги Михаелов</span><br>
+					<span>години: <span class="values">42</span></span><br>
+					<span>длъжност: <span class="values">QA</span></span><br>
+					<span>телефон: <span class="values">555 158 354</span></span>
+				</div>
+			</div>
+			<div class="column">
+				<img src="noimage.png" width="100px">
+				<div class="info">
+					<span class="name">Иванка Тодорова</span><br>
+					<span>години: <span class="values">25</span></span><br>
+					<span>длъжност: <span class="values">PM</span></span><br>
+					<span>телефон: <span class="values">555 875 356</span></span>
+				</div>
+			</div>
+		</div> <!-- Понеже се беше оплел със подредбата на таговете, беше изпъснал затварящия таг на първия div  -->
+	</body>
 </html>
