@@ -6,38 +6,41 @@
 </head>
 <body>
 
-	<ul>
-		<li class="navigation"><img src="img/logo.png"></li>
-		<li class="navigation"><a href="index.html">Home</a></li>
-		<li class="navigation"><a href="contactus.html">Contact Us</a></li>
-		<li class="navigation"><a href="gallery.html">Gallery</a></li>
-	</ul>
+	<header class="mainPageHeader">	
+		<ul>
+			<li id="logo"><img src="img/logo.png"></li>
+			<li class="navigation"><a href="index.html">Home</a></li>
+			<li class="navigation"><a href="contactus.html">Contact Us</a></li>
+			<li class="navigation"><a href="gallery.html">Gallery</a></li>
+		</ul>
+	</header>
 
-	<h1>Contact Form:</h1>
+	<div class="content">	<!-- Не знам, защо си пропуснал да поставиш контейнера тук. -->
+		<h1>Contact Form:</h1>
 
-	<form method="POST" action="...">
-		<label for="firstName">First name:</label>
-		<input type="text" name="firstName"><br><br>
-		<label for="lastName">Last name:</label>
-		<input type="text" name="lastName"><br><br>
-		<label for="gender">Gender:</label>
-		<input type="radio" name="gender">M
-		<input type="radio" name="gender">F <br><br>
-		<label for="department">Select to which department the questions is</label>
-		<select name="department">
-			<option>Astronomy</option>
-			<option>Physics</option>
-			<option>Maths</option>
-			<option>Biology</option>
-		</select> <br>
-		<label for="question">Question:</label>
-		<textarea name="question"></textarea> <br><br>
-		<label for="subscription">Subscribe to newsletter:</label>
-		<input type="checkbox" name="subscription"> <br><br>
-		<button type="submit">Go Ahead!</button>
+		<form method="POST" action="...">
+			<label for="firstName">First name:</label>
+			<input type="text" name="firstName"><br><br>
+			<label for="lastName">Last name:</label>
+			<input type="text" name="lastName"><br><br>
+			<label for="gender">Gender:</label>
+			<input type="radio" name="gender">M
+			<input type="radio" name="gender">F <br><br>
+			<label for="department">Select to which department the questions is</label>
+			<select name="department">
+				<option>Astronomy</option>
+				<option>Physics</option>
+				<option>Maths</option>
+				<option>Biology</option>
+			</select> <br>
+			<label for="question">Question:</label>
+			<textarea name="question"></textarea> <br><br>
+			<label for="subscription">Subscribe to newsletter:</label>
+			<input type="checkbox" name="subscription"> <br><br>
+			<button type="submit">Go Ahead!</button>
 
-		<img id="imageForm" src="img/contactform.jpg">
-	</form>
-
+			<img id="imageForm" src="img/contactform.jpg">
+		</form>
+	</div>
 </body>
 </html>
